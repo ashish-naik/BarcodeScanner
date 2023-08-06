@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, '11.0'
   s.requires_arc = true
 
-  s.source_files = 'Sources/**/*'
+  s.source_files = 'Sources/**/*.{h,m,swift}'
   s.resource_bundles = {
     'BarcodeScanner' => ['Sources/BarcodeScanner/Resources/Images.xcassets'],
     'Localization' => ['Sources/BarcodeScanner/Resources/Localization/*.lproj/Localizable.strings']
